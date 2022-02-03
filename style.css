@@ -1,0 +1,57 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 12px;
+}
+.navbar>nav{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display:flex;
+}
+img[src="images/lap.jpeg"]{
+    height: 100vh;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+
+.skills{
+    display: flex;
+}
+
+.skills>div{
+    text-align: center;
+    margin-top: 1rem;
+    color: blueviolet;
+}
+
+.welcomeimage>img{
+    height: 800 px;
+    width: 1400px;
+
+}
+.footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.footer>p{
+    font-size: 15px;
+}
+a:link,a:visited{
+    color: black;
+}
+a:hover{
+    color: rosybrown;
+}
+a{
+    text-decoration: none;
+}
